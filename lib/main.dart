@@ -1,4 +1,4 @@
-import 'package:aitakata_app/pages/sva_page.dart';
+import 'package:aitakata_app/pages/activity_page.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
@@ -30,7 +30,7 @@ class MyApp extends StatelessWidget {
         ),
         useMaterial3: true,
       ),
-      home: const SVAPage(),
+      home: const ActivityPage(),
     );
   }
 }
