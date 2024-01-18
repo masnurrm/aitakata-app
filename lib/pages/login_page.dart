@@ -1,6 +1,7 @@
 import 'package:aitakata_app/models/auth.dart';
 import 'package:aitakata_app/services/auth.dart';
 import 'package:aitakata_app/pages/activity_page.dart';
+import 'package:aitakata_app/pages/signup_page.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -216,6 +217,44 @@ class _LoginPageState extends State<LoginPage> {
               ),
 
               const SizedBox(height: 30.0),
+
+              //sign up
+              Row(
+                children: [
+                  Expanded(
+                    child: TextButton(
+                      onPressed: () {
+                        Navigator.push(context, MaterialPageRoute(builder: (context) => const SignUpPage()));
+                      },
+                      style: const ButtonStyle(
+                        padding: MaterialStatePropertyAll(
+                          EdgeInsets.symmetric(vertical: 16.0),
+                        ),
+                        backgroundColor: MaterialStatePropertyAll(
+                          Colors.transparent,
+                        ),
+                        shape: MaterialStatePropertyAll(
+                          RoundedRectangleBorder(
+                            side: BorderSide(
+                              color: Color(0xFFDADADA),
+                            ),
+                            borderRadius: BorderRadius.all(
+                              Radius.circular(8.0),
+                            ),
+                          ),
+                        ),
+                      ),
+                      child: const Text(
+                        'Daftar',
+                        style: TextStyle(
+                          color: Color(0xFF6A707C),
+                          fontSize: 16.0,
+                        ),
+                      ),
+                    ),
+                  ),
+                ],
+              ),
 
               // button: masuk google
               Row(
