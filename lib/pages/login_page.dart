@@ -3,7 +3,6 @@ import 'package:aitakata_app/services/auth.dart';
 import 'package:aitakata_app/pages/activity_page.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'dart:developer' as developer;
 
 class LoginPage extends StatefulWidget {
   const LoginPage({super.key});
