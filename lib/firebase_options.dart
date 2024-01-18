@@ -44,7 +44,7 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyBxfy4Wmb9pMy_Yxk3GEOjq8qClmhZ_UHI',
+    apiKey: String.fromEnvironment('FIREBASE_WEB_API_KEY'),
     appId: '1:289449706588:web:5fb103a86599efdfcfd299',
     messagingSenderId: '289449706588',
     projectId: 'aitakata-app',
@@ -54,7 +54,7 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyCqmIFkButK-BbBT0Zxr5U_LL9AnB90UWk',
+    apiKey: String.fromEnvironment('FIREBASE_ANDROID_API_KEY'),
     appId: '1:289449706588:android:01f5543a3d4d88f0cfd299',
     messagingSenderId: '289449706588',
     projectId: 'aitakata-app',
@@ -62,7 +62,7 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyAije7xR6K7LcKKCo2qiU5y0mgoW2650N0',
+    apiKey: String.fromEnvironment('FIREBASE_IOS_API_KEY'),
     appId: '1:289449706588:ios:fe63b4be15be868ccfd299',
     messagingSenderId: '289449706588',
     projectId: 'aitakata-app',
@@ -71,7 +71,7 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyAije7xR6K7LcKKCo2qiU5y0mgoW2650N0',
+    apiKey: String.fromEnvironment('FIREBASE_MACOS_API_KEY'),
     appId: '1:289449706588:ios:d4f5f3e75cdab860cfd299',
     messagingSenderId: '289449706588',
     projectId: 'aitakata-app',
