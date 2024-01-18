@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "289449706588",
+    "project_id": "aitakata-app",
+    "storage_bucket": "aitakata-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:289449706588:android:01f5543a3d4d88f0cfd299",
+        "android_client_info": {
+          "package_name": "com.example.aitakata_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqmIFkButK-BbBT0Zxr5U_LL9AnB90UWk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

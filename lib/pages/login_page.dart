@@ -1,5 +1,9 @@
+import 'package:aitakata_app/models/auth.dart';
+import 'package:aitakata_app/services/auth.dart';
+import 'package:aitakata_app/pages/activity_page.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'dart:developer' as developer;
 
 class LoginPage extends StatefulWidget {
   const LoginPage({super.key});
@@ -10,6 +14,9 @@ class LoginPage extends StatefulWidget {
 
 class _LoginPageState extends State<LoginPage> {
   bool _isHidden = true;
+
+  final TextEditingController _passwordController = TextEditingController();
+  final TextEditingController _emailController = TextEditingController();
 
   void _togglePasswordView() {
     setState(() {
@@ -61,9 +68,10 @@ class _LoginPageState extends State<LoginPage> {
                   borderRadius: const BorderRadius.all(Radius.circular(8.0)),
                   color: const Color(0xFFF7F8F9),
                 ),
-                child: const TextField(
-                  style: TextStyle(fontSize: 14),
-                  decoration: InputDecoration(
+                child: TextFormField(
+                  controller: _emailController,
+                  style: const TextStyle(fontSize: 14),
+                  decoration: const InputDecoration(
                     contentPadding: EdgeInsets.symmetric(
                       horizontal: 16.0,
                       vertical: 16.0,
@@ -92,7 +100,8 @@ class _LoginPageState extends State<LoginPage> {
                   borderRadius: const BorderRadius.all(Radius.circular(8.0)),
                   color: const Color(0xFFF7F8F9),
                 ),
-                child: TextField(
+                child: TextFormField(
+                  controller: _passwordController,
                   obscureText: _isHidden,
                   style: const TextStyle(fontSize: 14),
                   decoration: InputDecoration(
@@ -139,7 +148,22 @@ class _LoginPageState extends State<LoginPage> {
                 children: [
                   Expanded(
                     child: TextButton(
-                      onPressed: () {},
+                      onPressed: () async{
+                        SignInSignUpResult result = await Auth.signInWithEmail(email: _emailController.text, pass: _passwordController.text);
+                        if(context.mounted){
+                          if(result.user != null){
+                            Navigator.push(context, MaterialPageRoute(builder: (context) => const ActivityPage()));
+                          } else {
+                            showDialog(context: context, builder: (context) => AlertDialog(
+                              title: const Text("Error"),
+                              content: Text(result.message!),
+                              actions: [
+                                TextButton(onPressed: () => Navigator.pop(context), child: const Text("OK"))
+                              ],
+                            ));
+                          }
+                        }
+                      },
                       style: const ButtonStyle(
                         padding: MaterialStatePropertyAll(
                           EdgeInsets.symmetric(vertical: 16.0),
