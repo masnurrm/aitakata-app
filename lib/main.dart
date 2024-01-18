@@ -2,12 +2,19 @@ import 'package:aitakata_app/pages/login_page.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:firebase_core/firebase_core.dart';
-import 'firebase_options.dart';
+import 'package:flutter_dotenv/flutter_dotenv.dart';
+import 'package:aitakata_app/utils/firebase_api_key_option.dart';
 
 void main() async {
+  await dotenv.load(fileName: ".env");
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(
-    options: DefaultFirebaseOptions.currentPlatform,
+    options: FirebaseOptions(
+      projectId: 'aitakata-app',
+      appId: '1:289449706588:android:01f5543a3d4d88f0cfd299',
+      apiKey: FirebaseOptionAPIKEY.currentPlatform,
+      messagingSenderId: '289449706588',
+    ),
   );
   runApp(const MyApp());
 }

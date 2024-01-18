@@ -15,7 +15,7 @@ import 'package:flutter/foundation.dart'
 /// );
 /// ```
 class DefaultFirebaseOptions {
-  static FirebaseOptions get currentPlatform {
+static Future<FirebaseOptions> get currentPlatform async {
     if (kIsWeb) {
       return web;
     }

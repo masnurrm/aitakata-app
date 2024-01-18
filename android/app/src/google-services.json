@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "289449706588",
+    "project_id": "aitakata-app",
+    "storage_bucket": "aitakata-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:289449706588:android:01f5543a3d4d88f0cfd299",
+        "android_client_info": {
+          "package_name": "com.example.aitakata_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "289449706588-4hs3s4bc6fndkt83di4hoh6qr3naflph.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.aitakata_app",
+            "certificate_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+          }
+        },
+        {
+          "client_id": "289449706588-6rhpne0snli1ipftrs08j48pe5ltu351.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqmIFkButK-BbBT0Zxr5U_LL9AnB90UWk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "289449706588-6rhpne0snli1ipftrs08j48pe5ltu351.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "289449706588-ecpkpb3neau4rp6c7grib8i53069f1mp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.aitakataApp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
