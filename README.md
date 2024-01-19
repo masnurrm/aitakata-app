@@ -1,19 +1,23 @@
 # AITAKATA-app
 This repository has several branches. The focus of the Fafi MaqMur team's work is on the following branch.
-- [AITAKATA App](https://github.com/masnurrm/aitakata-app/tree/aitakata_app)
-- [Backend](https://github.com/masnurrm/aitakata-app/tree/aitakata_be)
+- Flutter Development Branch: [See Branch](https://github.com/masnurrm/aitakata-app/tree/aitakata_app)
+- Backend Development Branch: [See Branch](https://github.com/masnurrm/aitakata-app/tree/aitakata_be)
+
+Also, here is the prototype that we sent in the Submission 2, too.
+- Figma Design File [Link](https://www.figma.com/file/IKiReT9Y36zC3LJ1ehlg5v/Hackfest-Needs?type=design&node-id=32%3A54&mode=design&t=VE2Q0kRARVuB3hRc-1)
+- Figma Prototype: [Link](https://www.figma.com/proto/IKiReT9Y36zC3LJ1ehlg5v/Hackfest-Needs?page-id=32%3A54&type=design&node-id=152-3128&viewport=210%2C709%2C0.06&t=rn8MBn63x36vkoHy-1&scaling=min-zoom&starting-point-node-id=152%3A2943&mode=design)
 
 Subsequently, the latest application build can be accessed at the following URL:
-[Latest APK Build](https://github.com/masnurrm/aitakata-app/blob/aitakata_app/aitakata-app.apk)
+- AITAKATA APK (Current): [Check Here](https://github.com/masnurrm/aitakata-app/blob/aitakata_app/aitakata-app.apk)
 
 ## Team
 Hello, we are from **Fafi Maqmur** team.
 
 Member:
-- Nur Muhammad Ainul Yaqin
-- M. Fadhil Rasyidin Parinduri
-- Christoper Marcelino Mamahit
-- Muhammad Afif Dwi Ardhiansyah
+- Nur Muhammad Ainul Yaqin as Hustler
+- M. Fadhil Rasyidin Parinduri as Hipster
+- Christoper Marcelino Mamahit as Hacker 1
+- Muhammad Afif Dwi Ardhiansyah as Hacker 2
 
 ## Overview
 
