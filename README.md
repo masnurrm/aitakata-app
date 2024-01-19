@@ -1,7 +1,13 @@
 # AITAKATA-app
+This repository has several branches. The focus of the Fafi MaqMur team's work is on the following branch.
+- [AITAKATA App](https://github.com/masnurrm/aitakata-app/tree/aitakata_app)
+- [Backend](https://github.com/masnurrm/aitakata-app/tree/aitakata_be)
+
+Subsequently, the latest application build can be accessed at the following URL:
+[Latest APK Build](https://github.com/masnurrm/aitakata-app/blob/aitakata_app/aitakata-app.apk)
 
 ## Team
-Halo, kami dari tim **Fafi Maqmur**.
+Hello, we are from **Fafi Maqmur** team.
 
 Member:
 - Nur Muhammad Ainul Yaqin
@@ -11,7 +17,9 @@ Member:
 
 ## Overview
 
-AITAKATA merupakan mobile smart virtual assistant pencegahan potensi dini dan potensi lanjutan kanker payudara berbasis AI dan gamifikasi. AITAKATA menggunakan teknologi Generative AI untuk menyediakan asisten virtual, chatbot, dan rekomendasi nutrisi terintegrasi, serta machine learning untuk mendeteksi dini risiko kanker payudara. Terdapat fitur-fitur seperti pemeriksaan mandiri, rekomendasi gaya hidup sehat yang dikemas dalam fitur-fitur yang menarik. Selain itu aplikasi dapat menjadi sesuatu yang dipakai terus menerus oleh user, dengan gamifikasi yang terdapat dalam aplikasi. Dan tentu, fitur-fitur tersebut tetap memperhatikan privasi dari para pengguna.
+AITAKATA is a mobile smart virtual assistant for the early prevention and advanced potential of breast cancer based on AI and gamification. One of our focuses is on the issue where individuals at potential risk of breast cancer feel EMBARRASSED to find out, EMBARASSED then believe that their current condition is not a symptom of breast cancer, as well as being EMBARRASSED to undergo check-ups.
+
+AITAKATA utilizes Generative AI technology to provide a virtual assistant, chatbot, and integrated nutritional recommendations, as well as machine learning to detect early breast cancer risks without the need to feel EMBARRASSED. There are features such as self-examinations, healthy lifestyle recommendations packaged in engaging features. Additionally, the application can be something continuously used by users, with gamification integrated into the app. And, of course, these features always prioritize the privacy of users.
 
 ## Dev App Overview
 
